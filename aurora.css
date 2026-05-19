@@ -127,5 +127,20 @@ body {
     transform: translateY(-2px);
 }
 
+@media(max-width:480px){
 
+    .glass-card{
+        width:90%;
+
+        padding:40px 25px;
+    }
+
+    .glass-card h2{
+        font-size:2rem;
+    }
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+}
 
