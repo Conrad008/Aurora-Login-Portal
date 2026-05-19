@@ -1,41 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aurora |Login portal</title>
-    <link rel="stylesheet" href="aurora.css">
-</head>
-<body>
+    <link rel="stylesheet" href="aurora.css" />
+  </head>
+  <body>
     <header class="header">
-        <strong><h1>Welcome Back</h1></strong>
-    </header> <br> <br>
+      <strong><h1>Welcome Back</h1></strong>
+    </header>
+    <br />
+    <br />
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+    <div class="blob-3"></div>
+
     <main class="glass-card">
-        <form action="/submit-data" method="post" class="form">
-            <fieldset class="fieldset">
-                <legend><strong><h2>Log in to your account</h2></strong></legend> <br>
+      <form action="/submit-data" method="post" class="form">
+        <fieldset class="fieldset">
+          <legend>
+            <strong><h2>Log in to your account</h2></strong>
+          </legend>
+          <br />
 
-                <div class="input">
-                    <label for="email" class="label">Email:</label> <br>
-                    <input type="email" 
-                    id="email"  
-                    name="email" 
-                    placeholder="Enter Your Email" 
-                    required>
-                </div> <br>
-                <div class="input">
-                    <label for="pass" class="label">Password:</label> <br>
-                    <input type="password" 
-                    id="password" 
-                    name="Password" 
-                    placeholder="Enter your Password" 
-                    required>
-                </div> <br>
+          <div class="input">
+            <label for="email" class="label">Email:</label> <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+          <br />
+          <div class="input">
+            <label for="pass" class="label">Password:</label> <br />
+            <input
+              type="password"
+              id="password"
+              name="Password"
+              placeholder="Enter your Password"
+              required
+            />
+          </div>
+          <br />
 
-                <button type="submit" class="button">Login</button>
-            </fieldset>
-
-        </form>
+          <button type="submit" class="button">Login</button>
+        </fieldset>
+      </form>
     </main>
-</body>
+  </body>
 </html>
