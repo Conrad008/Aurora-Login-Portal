@@ -98,7 +98,7 @@ body {
     padding: 12px 20px;
     border: none;
     outline: rgb(218, 215, 215);
-    border-radius: 20px;
+    border-radius: 50px;
     background: rgba(255, 255, 255, 0.04);
     border:1px solid rgba(255,255,255,0.04);
     color:white;
@@ -109,5 +109,23 @@ body {
 .input input::placeholder {
      color:rgba(255,255,255,0.95);
 }
+
+.button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #4cc9f0;
+    box-shadow: 0 0 15px rgba(76,201,240,0.4);
+    transition:all 0.3s ease-in-out;
+
+}
+
+.button:hover {
+    background-color: #1e8aaa;
+    transform: translateY(-2px);
+}
+
 
 
